@@ -13,7 +13,7 @@ def json_data_info(request):
         "current_day": current_day,
         "utc_time": utc_time,
         "track": track,
-        "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
+        "github_file_url": "https://github.com/oniyidefaith/JsonInfo/blob/main/jsons/views.py",
         "github_repo_url": "https://github.com/oniyidefaith/JsonInfo",
         "status_code": "200"
     }
