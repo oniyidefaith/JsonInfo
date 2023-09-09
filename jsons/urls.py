@@ -1,6 +1,6 @@
-from django.urls import path
+from django.urls import re_path
 from . import views
 
 urlpatterns = [
-    path('api/', views.json_data_info, name='info'),
+    re_path(r'^api/?$', views.json_data_info, name='get_info'),
 ]
